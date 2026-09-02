@@ -1,0 +1,136 @@
+{
+  "frame": 64,
+  "cols": 13,
+  "blocks": {
+    "carry": {
+      "row": 0,
+      "rows": 4,
+      "frames": 9
+    },
+    "attack": {
+      "row": 4,
+      "rows": 4,
+      "frames": 6
+    },
+    "shoot": {
+      "row": 8,
+      "rows": 4,
+      "frames": 13
+    },
+    "hurt": {
+      "row": 12,
+      "rows": 1,
+      "frames": 6
+    }
+  },
+  "layers": {
+    "body_light": {
+      "file": "/sprites/body_light.png",
+      "z": 10
+    },
+    "body_brown": {
+      "file": "/sprites/body_brown.png",
+      "z": 10
+    },
+    "body_dark": {
+      "file": "/sprites/body_dark.png",
+      "z": 10
+    },
+    "torso_chain": {
+      "file": "/sprites/torso_chain.png",
+      "z": 30
+    },
+    "torso_plate": {
+      "file": "/sprites/torso_plate.png",
+      "z": 30
+    },
+    "torso_leather": {
+      "file": "/sprites/torso_leather.png",
+      "z": 30
+    },
+    "hair_messy": {
+      "file": "/sprites/hair_messy.png",
+      "z": 40
+    },
+    "hair_long": {
+      "file": "/sprites/hair_long.png",
+      "z": 40
+    },
+    "hair_bald": {
+      "file": null,
+      "z": 40
+    },
+    "cape_red": {
+      "file": "/sprites/cape_red.png",
+      "z": 20
+    },
+    "cape_blue": {
+      "file": "/sprites/cape_blue.png",
+      "z": 20
+    },
+    "wound_ribs": {
+      "file": "/sprites/wound_ribs.png",
+      "z": 60
+    },
+    "wound_brain": {
+      "file": "/sprites/wound_brain.png",
+      "z": 60
+    },
+    "wound_eye": {
+      "file": "/sprites/wound_eye.png",
+      "z": 60
+    }
+  },
+  "weapons": {
+    "sword": {
+      "fg": {
+        "file": "/sprites/weapon_sword_fg.png",
+        "z": 50
+      },
+      "bg": {
+        "file": "/sprites/weapon_sword_bg.png",
+        "z": 5
+      }
+    },
+    "axe": {
+      "fg": {
+        "file": "/sprites/weapon_axe_fg.png",
+        "z": 50
+      },
+      "bg": {
+        "file": "/sprites/weapon_axe_bg.png",
+        "z": 5
+      }
+    },
+    "spear": {
+      "fg": {
+        "file": "/sprites/weapon_spear_fg.png",
+        "z": 50
+      },
+      "bg": {
+        "file": "/sprites/weapon_spear_bg.png",
+        "z": 5
+      }
+    },
+    "bow": {
+      "fg": {
+        "file": "/sprites/weapon_bow_fg.png",
+        "z": 50
+      },
+      "bg": {
+        "file": "/sprites/weapon_bow_bg.png",
+        "z": 5
+      }
+    },
+    "crossbow": {
+      "fg": {
+        "file": "/sprites/weapon_crossbow_fg.png",
+        "z": 50
+      },
+      "bg": {
+        "file": "/sprites/weapon_crossbow_bg.png",
+        "z": 5
+      }
+    }
+  }
+}
